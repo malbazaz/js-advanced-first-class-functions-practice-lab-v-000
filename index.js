@@ -40,9 +40,9 @@ function totalRevenue(driver){
   //               })
   //             }
 // let initial = 0;
-let total = 0;
+// let total = 0;
 return driver.reduce(function(total,d){
-  return total + d.revenue;
+  return d.revenue+total ;
 })
 }
 // if (d === "revenue"){

@@ -45,5 +45,5 @@ function totalRevenue(driver){
 }
 
 function averageRevenue(driver){
-
+return totalRevenue(driver)/driver.length;
 }

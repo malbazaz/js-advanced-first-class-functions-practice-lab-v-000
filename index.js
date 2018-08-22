@@ -23,6 +23,7 @@ const driver1 = driver.sort(function(a,b){
   //   }
   // }
   })
+  return driver1;
 }
 
 function driversByName(driver){

@@ -17,5 +17,4 @@ function driversByRevenue(driver){
 return driver.sort(function(a,b){
   return a-b;
   })
-
 }

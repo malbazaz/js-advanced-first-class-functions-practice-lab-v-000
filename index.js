@@ -43,7 +43,7 @@ function totalRevenue(driver){
 // let total = 0;
 return driver.reduce(function(total,d){
   return d.revenue + total ;
-})
+}, 0)
 }
 // if (d === "revenue"){
 //

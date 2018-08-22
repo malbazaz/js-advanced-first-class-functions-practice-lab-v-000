@@ -14,7 +14,7 @@ return driver.forEach(function(e){
 }
 
 function driversByRevenue(driver){
-return driver.sort(function(a,b){
+return const driver1 = driver.sort(function(a,b){
   return a.revenue - b.revenue
 
   // for(const key in driver){

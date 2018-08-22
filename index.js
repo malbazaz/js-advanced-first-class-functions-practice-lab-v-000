@@ -18,7 +18,7 @@ function driversByRevenue(driver){
 let newArray =  driver.map(function(b){
     b.revenue
   })
-return driver.sort(function(a,b){
+return newArray.sort(function(a,b){
   return a-b;
   })
 }

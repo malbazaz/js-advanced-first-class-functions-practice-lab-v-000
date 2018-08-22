@@ -16,7 +16,11 @@ return driver.forEach(function(e){
 function driversByRevenue(driver){
 
 return driver.sort(function(a,b){
-  return a[revenue]-b[revenue];
+  for(const key in driver){
+    if(key === "revenue"){
+      return a[key]-b[key];
+    }
+  }
   })
 }
 // return driver.forEach(function(d){

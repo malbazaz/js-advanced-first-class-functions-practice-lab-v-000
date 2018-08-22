@@ -24,7 +24,7 @@ return driver.sort(function(a,b){
 }
 
 function driversByName(driver){
-  return driver.sort(function(a,b)){
+  return driver.sort(function(a,b){
 
-  }
+  })
 }

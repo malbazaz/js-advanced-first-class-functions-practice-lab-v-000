@@ -15,11 +15,8 @@ return driver.forEach(function(e){
 
 function driversByRevenue(driver){
 
-let newArray =  driver.map(function(b){
-  return b.revenue
-  })
-return newArray.sort(function(a,b){
-  return a-b;
+return driver.sort(function(a,b){
+  return a[revenue]-b[revenue];
   })
 }
 // return driver.forEach(function(d){

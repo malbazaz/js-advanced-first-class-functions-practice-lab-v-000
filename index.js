@@ -36,28 +36,3 @@ function driversByName(driver){
   // }
   })
 }
-
-function totalRevenue(driver){
-  const reduceRev = function(){
-    driver.forEach(function(d){
-            return d["revenue"];
-      // if (d === "revenue"){
-      //
-      //   return driver[d]
-      // }
-    })
-    // for(const key in driver){
-    //   if (key === "revenue"){
-    //     return driver[key];
-    //   }
-    // }
-  }
-let initial = 0;
-console.log(driver.reduce(reduceRev,initial){
-  return reduceRev + initial;
-})
-}
-
-function averageRevenue(driver){
-return totalRevenue(driver)/driver.length;
-}

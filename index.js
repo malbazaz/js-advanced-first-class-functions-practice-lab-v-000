@@ -24,7 +24,6 @@ let driver1 = driver;
   //   }
   // }
   })
-  return driver1;
 }
 
 function driversByName(driver){

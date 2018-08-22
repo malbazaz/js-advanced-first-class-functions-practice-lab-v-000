@@ -53,7 +53,7 @@ function totalRevenue(driver){
     // }
   }
 console.log(driver.reduce(reduceRev,0){
-
+  return reduceRev
 })
 }
 

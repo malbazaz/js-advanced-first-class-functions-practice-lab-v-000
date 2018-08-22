@@ -28,7 +28,7 @@ return a.revenue - b.revenue
 
 function driversByName(driver){
   return driver.slice().sort(function(a,b){
-   a[name].localCompare.b[name]
+   a["name"].localCompare(b["name"])
   // for(const key in driver){
   //   if(key === "name"){
   //      a[key].localCompare(b[key])

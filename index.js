@@ -6,5 +6,9 @@ function logDriverNames(driver){
 }
 
 function logDriversByHometown(driver, location){
-
+return driver.forEach(function(e){
+  if (e.hometown == location){
+    return console.log(e.name);
+  }
+})
 }

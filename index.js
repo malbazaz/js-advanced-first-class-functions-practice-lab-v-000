@@ -39,22 +39,21 @@ function totalRevenue(driver){
             return d["revenue"];
                 })
               }
-      // if (d === "revenue"){
-      //
-      //   return driver[d]
-      // }
-
-    // for(const key in driver){
-    //   if (key === "revenue"){
-    //     return driver[key];
-    //   }
-    // }
-
 let initial = 0;
 return driver.reduce(reduceRev,initial){
   return reduceRev + initial;
 }
 }
+// if (d === "revenue"){
+//
+//   return driver[d]
+// }
+
+// for(const key in driver){
+//   if (key === "revenue"){
+//     return driver[key];
+//   }
+// }
 
 function averageRevenue(driver){
 return totalRevenue(driver)/driver.length;

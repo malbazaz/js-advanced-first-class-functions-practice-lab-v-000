@@ -13,4 +13,12 @@ return driver.forEach(function(e){
 })
 }
 
-function driversByRevenue(driver)
+function driversByRevenue(driver){
+  driver.sort(function(a,b){
+    return a-b;
+  })
+  const sortOut = function(a,b){
+    return a - b;
+  }
+  driver.sort(sortOut(a,b))
+}

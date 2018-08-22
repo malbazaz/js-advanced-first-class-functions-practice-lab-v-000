@@ -28,11 +28,11 @@ let driver1 = driver;
 
 function driversByName(driver){
   return driver.sort(function(a,b){
-  for(const key in driver){
-    if(key === "name"){
-       a[key].localCompare(b[key])
-    }
-  }
+  // for(const key in driver){
+  //   if(key === "name"){
+  //      a[key].localCompare(b[key])
+  //   }
+  // }
   })
 }
 

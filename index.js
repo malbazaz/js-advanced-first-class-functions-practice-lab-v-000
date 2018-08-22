@@ -54,7 +54,7 @@ function totalRevenue(driver){
   }
 let initial = 0;
 console.log(driver.reduce(reduceRev,initial){
-  return reduceRev
+  return reduceRev + initial;
 })
 }
 

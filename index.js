@@ -51,9 +51,9 @@ function totalRevenue(driver){
     // }
 
 let initial = 0;
-console.log(driver.reduce(reduceRev,initial){
+return driver.reduce(reduceRev,initial){
   return reduceRev + initial;
-})
+}
 }
 
 function averageRevenue(driver){

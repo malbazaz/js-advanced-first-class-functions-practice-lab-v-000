@@ -46,7 +46,7 @@ function totalRevenue(driver){
 // }, 0)
 // }
 return driver.reduce((total, d) => {return total + d.revenue})
-
+}
 // if (d === "revenue"){
 //
 //   return driver[d]

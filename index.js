@@ -17,7 +17,7 @@ function driversByRevenue(driver){
 return driver.sort(function(a,b){
   for(const key in driver){
     if(key === "revenue"){
-     a[key]-b[key];
+      a[key]-b[key];
     }
   }
   })
@@ -31,4 +31,15 @@ function driversByName(driver){
     }
   }
   })
+}
+
+function totalRevenue(driver){
+  const reduceRev = function(){
+    for(const key in driver){
+      if (key === "revenue"){
+        return key[driver];
+      }
+    }
+  }
+  driver.reduce()
 }

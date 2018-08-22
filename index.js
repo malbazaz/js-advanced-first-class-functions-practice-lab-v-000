@@ -28,11 +28,36 @@ return a.revenue - b.revenue
 
 function driversByName(driver){
   return driver.slice().sort(function(a,b){
-   a.name.localCompare(b.name)
+   a[name].localCompare.b[name]
   // for(const key in driver){
   //   if(key === "name"){
   //      a[key].localCompare(b[key])
   //   }
   // }
   })
+}
+
+function totalRevenue(driver){
+  const reduceRev = function(){
+    driver.forEach(function(d){
+            return d["revenue"];
+      // if (d === "revenue"){
+      //
+      //   return driver[d]
+      // }
+    })
+    // for(const key in driver){
+    //   if (key === "revenue"){
+    //     return driver[key];
+    //   }
+    // }
+  }
+let initial = 0;
+console.log(driver.reduce(reduceRev,initial){
+  return reduceRev + initial;
+})
+}
+
+function averageRevenue(driver){
+return totalRevenue(driver)/driver.length;
 }

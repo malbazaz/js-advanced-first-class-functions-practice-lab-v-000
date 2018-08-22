@@ -41,5 +41,9 @@ function totalRevenue(driver){
       }
     }
   }
-  driver.reduce(reduceRev,[])
+  return driver.reduce(reduceRev,[])
+}
+
+function averageRevenue(driver){
+
 }

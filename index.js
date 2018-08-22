@@ -29,11 +29,7 @@ return a.revenue - b.revenue
 function driversByName(driver){
   return driver.slice().sort(function(a,b){
    return a.name.localCompare(b.name)
-  // for(const key in driver){
-  //   if(key === "name"){
-  //      a[key].localCompare(b[key])
-  //   }
-  // }
+
   })
 }
 
@@ -57,7 +53,7 @@ function driversByName(driver){
 //   return reduceRev + initial;
 // })
 // }
-// 
+//
 // function averageRevenue(driver){
 // return totalRevenue(driver)/driver.length;
 // }

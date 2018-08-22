@@ -34,11 +34,11 @@ function driversByName(driver){
 
 function totalRevenue(driver){
 
-  const reduceRev = function(){
-    driver.forEach(function(d){
-            return d["revenue"];
-                })
-              }
+  // const reduceRev = function(){
+  //   driver.forEach(function(d){
+  //           return d["revenue"];
+  //               })
+  //             }
 let initial = 0;
 return driver.reduce(reduceRev,initial){
   return reduceRev + initial;

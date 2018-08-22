@@ -39,11 +39,11 @@ function driversByName(driver){
 
 function totalRevenue(driver){
   const reduceRev = function(){
-    driver.forEach(function(d){
-      if (d === "revenue"){
-        return driver[d]
-      }
-    })
+    // driver.forEach(function(d){
+    //   if (d === "revenue"){
+    //     return driver[d]
+    //   }
+    // })
     for(const key in driver){
       if (key === "revenue"){
         return driver[key];

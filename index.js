@@ -27,7 +27,7 @@ function driversByName(driver){
   return driver.sort(function(a,b){
   for(const key in driver){
     if(key === "name"){
-      a[key].localCompare(b[key])
+      return a[key].localCompare(b[key])
     }
   }
   })

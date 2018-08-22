@@ -52,7 +52,9 @@ function totalRevenue(driver){
     //   }
     // }
   }
-console.log(driver.reduce(reduceRev,[]))
+console.log(driver.reduce(reduceRev,0){
+
+})
 }
 
 function averageRevenue(driver){

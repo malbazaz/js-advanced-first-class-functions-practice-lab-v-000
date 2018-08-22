@@ -41,10 +41,12 @@ function totalRevenue(driver){
   //             }
 // let initial = 0;
 // let total = 0;
-return driver.reduce(function(total,d){
-  return d.revenue + total ;
-}, 0)
-}
+// return driver.reduce(function(total,d){
+//   return d.revenue + total ;
+// }, 0)
+// }
+driver.reduce((total, d) => {return total + d.revenue})
+
 // if (d === "revenue"){
 //
 //   return driver[d]

@@ -22,6 +22,7 @@ return driver.sort(function(a,b){
   }
   })
 }
-// return driver.forEach(function(d){
-//   return d.revenue;
-// })
+
+function driversByName(driver){
+  return driver.sort(function(a,b))
+}

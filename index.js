@@ -12,3 +12,5 @@ return driver.forEach(function(e){
   }
 })
 }
+
+function driversByRevenue(driver)

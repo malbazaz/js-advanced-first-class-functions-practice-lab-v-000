@@ -39,9 +39,9 @@ function totalRevenue(driver){
   //           return d["revenue"];
   //               })
   //             }
-let initial = 0;
-return driver.reduce(reduceRev,initial){
-  return reduceRev + initial;
+// let initial = 0;
+return driver.reduce(total,d){
+  return total + d.revenue;
 }
 }
 // if (d === "revenue"){

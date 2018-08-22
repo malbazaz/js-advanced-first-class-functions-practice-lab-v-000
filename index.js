@@ -41,6 +41,7 @@ function totalRevenue(driver){
   const reduceRev = function(){
     driver.forEach(function(d){
       if (d === "revenue"){
+        debugger;
         return driver[d]
       }
     })

@@ -18,6 +18,6 @@ function driversByRevenue(driver){
   return a-b;
   })
   return driver.forEach(function(d){
-    return d.name;
+    return d.revenue;
   })
 }
